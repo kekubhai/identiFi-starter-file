@@ -1,6 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 const fs = require("fs");
-const privateKey = fs.readFileSync("secrete.txt").toString();
+const privateKey = fs.readFileSync("secret.txt").toString();
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   defaultNetwork: "sepolia",
@@ -40,4 +40,4 @@ module.exports = {
   loggingEnabled: true,
 };
 
-// npx hardhat ignition deploy ./ignition/modules/Lock.js --network BitTorrent
+// 0x5f9c5E9c1E9330b46836d63d412dE0D8Fc3676Fe
